@@ -27,9 +27,11 @@ for year in range(1, years + 1):
 
 print("\nTotal Investment:", total_investment)
 
-'''# Task 4: Display formatted investment report
+print("\nTotal Investment:", total_investment)
+
+# Task 4: Display formatted investment report
 print("\n----- Investment Report -----")
 print("Investor Name:", name)
 print("Monthly Deposit:", monthly_deposit)
 print("Years:", years)
-print("Total Investment:", total_investment)'''
+print("Total Investment:", total_investment)
