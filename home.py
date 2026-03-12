@@ -1,17 +1,24 @@
-# Program to calculate total investment from monthly deposits
+# Task 1: Take input from user
+name = input("Enter investor name: ")
+monthly_deposit = float(input("Enter monthly deposit: "))
+years = int(input("Enter investment years: "))
 
-# Ask user for details
-investor_name = input("Enter investor name: ")
-monthly_deposit = float(input("Enter monthly deposit amount: "))
-years = int(input("Enter number of years: "))
+print("\nInvestor Name:", name)
+print("Monthly Deposit:", monthly_deposit)
+print("Investment Years:", years)
 
-# Initialize total investment
-total_investment = 0
+# Task 2: Print data types
+print("\nData Types")
+print("Type of monthly_deposit:", type(monthly_deposit))
+print("Type of years:", type(years))
 
-# Loop over each year
-for year in range(1, years + 1):
-    total_investment += monthly_deposit * 12  # 12 months per year
-    print(f"Year {year}: Total Investment = {total_investment}")
+# # Task 3: Calculate total investment
+# total_investment = monthly_deposit * 12 * years
+# print("\nTotal Investment:", total_investment)
 
-# Final summary
-print(f"\nInvestor {investor_name} will have a total investment of {total_investment} after {years} years.")
+# # Task 4: Display formatted investment report
+# print("\n----- Investment Report -----")
+# print("Investor Name:", name)
+# print("Monthly Deposit:", monthly_deposit)
+# print("Years:", years)
+# print("Total Investment:", total_investment)
